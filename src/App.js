@@ -5,7 +5,9 @@ import Column from './Column';
 import "./App.css";
 
 const App = () => {
+  // mock data for dnd
   let [state, setState] = useState(initialData);
+  // After the drag and drop the item, render or save the change
   let onDragEnd = (result) => {
     const { destination, source, draggableId } = result;
 
@@ -45,6 +47,8 @@ const App = () => {
       setState(newState);
       return;
     }
+
+    // different column move save
     const startTaskIds = Array.from(start.taskIds);
     startTaskIds.splice(source.index, 1);
     const newStart = {
