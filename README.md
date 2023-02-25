@@ -1,6 +1,11 @@
 ## This project is for the Junior Front End Developer at Stellar Culinary Personnel LTD
-  For this project, I used React-beautiful-dnd library for drag and drop the a card from table. I put two columns which is 'To-do' and 'Done' with 4 mock cards.
+  For this project, I used React-beautiful-dnd library for drag and drop the a card from table. I put two columns which is 'To-do' and 'Done' with 4 mock cards. Here is the demo:
   
+  
+
+
+https://user-images.githubusercontent.com/88572626/221342434-9d6feb8d-6d7a-4538-b069-2d6c67fd773f.mov
+
 
 
 ## Available Scripts
